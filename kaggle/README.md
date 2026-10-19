@@ -15,7 +15,7 @@ KAGGLE_API_TOKEN=<token> py -m kaggle datasets version -p kaggle/upload -m "Dail
 
 ## Changing the metadata (title, descriptions, columns, provenance, frequency)
 
-Edit `kaggle/dataset-metadata.json`, copy it to `kaggle/upload/`, then:
+Edit `kaggle/dataset-metadata.json`, copy it to `kaggle/upload/` (keep the upload copy's licence name `CC-BY-4.0`; the two files differ there on purpose), then:
 
 ```sh
 KAGGLE_API_TOKEN=<token> py -m kaggle datasets metadata samrenkema/cryptopunks-daily-floor-price --update -p kaggle

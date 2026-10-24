@@ -6,6 +6,7 @@ marketplace contract's own events. One row per UTC day, no gaps, updated every d
 ![CryptoPunks daily floor since 2017, log scale](docs/floor-history.png)
 
 - **Chart and downloads:** [punkprice.com/data](https://punkprice.com/data?utm_source=github)
+- **How it was built:** [Reconstructing nine years of the CryptoPunks floor from contract events](https://punkprice.com/blog/reconstructing-the-cryptopunks-floor?utm_source=github), the write-up behind this dataset
 - **Licence:** [CC BY 4.0](LICENSE). Use it for anything, including commercially, as long as you credit it (see [Cite](#cite))
 
 ## Quick start
@@ -69,6 +70,9 @@ something read from the contract; `floor_eth` is the measured quantity.
 
 **Limits.** This is the floor on the CryptoPunks contract's own marketplace. Wrapped punks
 listed on other marketplaces are not included. A floor is an ask, not a trade.
+
+The full story, with the checks and what the series shows, is in the
+[methodology post](https://punkprice.com/blog/reconstructing-the-cryptopunks-floor?utm_source=github).
 
 ## Verification
 
